@@ -24,7 +24,7 @@ The website includes only narrative summaries and the two supplied research post
 4. Check desktop and mobile, open each case study, test keyboard navigation, external links and resume printing.
 5. Commit changes to `main`. GitHub Pages publishes from the repository root.
 
-The resume is available at `resume.html`; its Print / Save as PDF button opens the browser print dialog. A two-page PDF download is also available as `Jeff-Mutuku-Resume.pdf`. Regenerate or update the PDF whenever resume content changes; PDF synchronization is manual.
+The resume is available at `resume.html`; its Print / Save as PDF button opens the browser print dialog. A one-page PDF download is also available as `Jeff-Mutuku-Resume.pdf`. Regenerate or update the PDF whenever resume content changes; PDF synchronization is manual.
 
 Education dates reflect the owner's November 8, 2026 correction: undergraduate Fall 2019–December 2022; master's May 2024–August 2026. Degree titles, roles and listed credentials are based on the supplied resume. Credential validity and detailed contribution records can be updated as supporting material becomes available.
 
@@ -33,3 +33,7 @@ Education dates reflect the owner's November 8, 2026 correction: undergraduate F
 Serve this directory with a local static server and open `index.html`. For example, `python -m http.server 8765 --bind 127.0.0.1`.
 
 There is no automatic synchronization with the Career folder. Original Career files remain unchanged. Maintain changes in this repository and commit them deliberately.
+
+## November 2026 identity and research update
+
+Performance Scientist is the primary title. The original angular JM vector mark and owner-supplied portrait support the existing visual direction. BFR ran January-May 2025 (University Research Colloquium, April 2025); HRR ran January-May 2026 (colloquium, April 2026); PAP ran January-May 2026 in support of a master's thesis. Contributions were confirmed by the owner, including co-principal investigator roles and independent dashboard initiative. IRB submission administration is not attributed to Jeff. The VAT manuscript remains internal; only ongoing-work metadata is public.
