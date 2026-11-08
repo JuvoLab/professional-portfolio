@@ -45,3 +45,8 @@ When content or scripts change, bump the shared `?v=` asset version in both HTML
 ## Personal context
 
 The homepage includes owner-confirmed achievements: NCAA Division I athlete, Scholastic All-American (2022), and Cum Laude. A small Beyond the Lab section includes Kenya U19/U20 rugby representation, the Junior World Rugby Trophy in Brazil, and a junior black belt in Taekwondo. The linked RugbyPass profile independently names Jeff Mutuku and mentions Kenya U19/U20 selections. This section uses a plain link instead of an autoplaying embedded video.
+
+
+## Football analytics feature
+
+Premier League Performance Intelligence is featured in research, the technical portfolio and the web resume. The original PDF resume remains unchanged. Maintain its case-study text in `content.js`, the capability/evidence presentation in `index.html`, and its screenshot in `soccer-performance-preview.png`. The image is the project review capture with visible StatsBomb attribution; it shows the local dashboard, not a deployed app. Repository, methods, SQL and QA links provide inspectable evidence for the stated Python, relational SQL, reproducibility and reporting capabilities. No raw events or database are included. The project is independent noncommercial historical research and does not establish current team quality, physiological workload or production hosting.

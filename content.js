@@ -53,7 +53,7 @@ window.portfolio = {
     },
     {
       "title": "Analysis & development",
-      "items": "Python, Pandas, NumPy, SciPy, exponential modeling, Plotly, HTML, CSS and JavaScript"
+      "items": "Python, Pandas, NumPy, SciPy, SQL / SQLite, exponential modeling, Plotly, HTML, CSS and JavaScript"
     },
     {
       "title": "Reporting tools",
@@ -69,8 +69,49 @@ window.portfolio = {
   "professionalDevelopment": "NSCA member · CPSS exam candidate (2026)",
   "projects": [
     {
-      "id": "pap",
+      "id": "soccer",
       "number": "01",
+      "category": "Football analytics · Independent project",
+      "title": "Premier League Performance Intelligence",
+      "short": "A reproducible Python and SQL workflow comparing league results with shot quality across 380 Premier League matches.",
+      "status": "Source published · Local dashboard verified",
+      "tags": [
+        "Python + SQL",
+        "Reproducible analysis",
+        "Streamlit"
+      ],
+      "question": "How closely do team results align with the quality of chances created and conceded, and how does that gap evolve within a season?",
+      "methods": "StatsBomb Open Data: all 380 matches, 20 clubs and 38 appearances per club in the 2015/16 Premier League. A pinned source snapshot feeds validated event ingestion and relational SQLite tables. SQL joins provide traceable inputs to Pandas, NumPy, Plotly and Streamlit.",
+      "analysis": "Compare points, goal difference (GD), shot expected-goal difference (xGD) and the residual GD − xGD. Examine full-window rolling means, cumulative gaps and separate first/second 19-appearance blocks. A seeded 5,000-resample match bootstrap illustrates variability under an independent-match assumption.",
+      "findings": "The project reports a descriptive correlation of r = 0.8989 between points and xGD across 20 teams. Crystal Palace’s GD − xGD gap changed from +12.34 after 19 appearances to −1.58 after 38, illustrating how a full-season total can hide a changing trajectory.",
+      "limitations": "One historical season from one provider. Shared fixtures, schedule, game state and dependent observations constrain interpretation. The residual does not isolate luck or repeatable skill; this is not a predictive model or a measure of physiological workload. The dashboard is locally verified, with no hosted application deployed.",
+      "contribution": "Project development under JuvoLab: source evaluation, event-data validation, relational SQL modeling, Python analysis, interactive reporting and documented reproducibility. The work extends physiological assessment experience into inspectable football analytics.",
+      "competencies": "Relational SQL joins and data modeling; Python ingestion and quality checks; temporal analysis and uncertainty communication; interactive reporting; reproducible environments and automated validation. The repository review documents five passing tests, reconciliation of all 380 matches, and matching hashes for 381 freshly retrieved source files. These are project-specific checks, not a claim of production deployment or advanced machine-learning expertise.",
+      "link": "https://github.com/JuvoLab/premier-league-performance-intelligence",
+      "linkText": "Explore code & reproducibility",
+      "resources": [
+        {
+          "label": "Read technical case study",
+          "url": "https://github.com/JuvoLab/premier-league-performance-intelligence/blob/main/docs/case-study.md"
+        },
+        {
+          "label": "Inspect validation record",
+          "url": "https://github.com/JuvoLab/premier-league-performance-intelligence/blob/main/docs/qa-review.md"
+        }
+      ],
+      "preview": "soccer-performance-preview.png",
+      "source": "Project repository, technical case study and QA record, reviewed November 8, 2026. Data: StatsBomb Open Data. Independent noncommercial research; no affiliation or endorsement. No underlying event data or database is distributed here.",
+      "role": "Independent research & analytics project · JuvoLab",
+      "dates": "November 2026",
+      "context": "Historical football analysis · Public code; dashboard runs locally",
+      "resumeBullets": [
+        "Developed a traceable Python/SQLite workflow from validated event data to team and player analysis.",
+        "Documented reproducibility, automated checks, temporal comparisons and an interactive Streamlit interface."
+      ]
+    },
+    {
+      "id": "pap",
+      "number": "02",
       "category": "Performance research",
       "title": "Warm-up strategies & sprint swimming",
       "short": "Exploring acute responses to upper-body, lower-body, and combined conditioning activities in collegiate swimmers.",
@@ -99,7 +140,7 @@ window.portfolio = {
     },
     {
       "id": "hrr",
-      "number": "02",
+      "number": "03",
       "category": "Exercise physiology",
       "title": "Seasonal heart-rate recovery",
       "short": "Comparing post-exercise recovery kinetics in Division I swimmers during in-season and off-season testing.",
@@ -127,7 +168,7 @@ window.portfolio = {
     },
     {
       "id": "bfr",
-      "number": "03",
+      "number": "04",
       "category": "Collaborative research",
       "title": "BFR walking & cardiometabolic markers",
       "short": "A four-week study of low-frequency blood-flow-restriction walking in overweight and obese adults.",
