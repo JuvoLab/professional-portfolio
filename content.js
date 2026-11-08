@@ -91,7 +91,11 @@ window.portfolio = {
       "source": "PAP project documentation, supplied resume, and owner-confirmed contribution and study dates (November 2026).",
       "role": "Performance Researcher & Co-Principal Investigator",
       "dates": "January – May 2026",
-      "context": "Collaborative research supporting a master’s thesis"
+      "context": "Collaborative research supporting a master’s thesis",
+      "resumeBullets": [
+        "Supported a master’s thesis through data collection, data hygiene, and collaborative study work.",
+        "Independently initiated and developed the interactive HTML, CSS, JavaScript, and Plotly dashboard."
+      ]
     },
     {
       "id": "hrr",
@@ -115,7 +119,11 @@ window.portfolio = {
       "source": "Seasonal Variations of Heart Rate Recovery in Division I NCAA Swimmers, California Baptist University research poster. Presented at the University Research Colloquium, April 2026. Contribution and dates confirmed by the owner.",
       "role": "Co-Principal Investigator",
       "dates": "January – May 2026",
-      "context": "University Research Colloquium · California Baptist University · April 2026"
+      "context": "University Research Colloquium · California Baptist University · April 2026",
+      "resumeBullets": [
+        "Contributed to recruitment, methodology, physiological testing, data quality, and interpretation of findings.",
+        "Contributed to recovery-kinetics analysis, conclusions, and scientific communication."
+      ]
     },
     {
       "id": "bfr",
@@ -139,7 +147,11 @@ window.portfolio = {
       "source": "The Effect of Low-Frequency BFR Walking on Cardiometabolic Markers in Overweight and Obese Individuals, California Baptist University research poster. Presented at the University Research Colloquium, April 2025. Contribution and dates confirmed by the owner.",
       "role": "Co-Principal Investigator",
       "dates": "January – May 2025",
-      "context": "University Research Colloquium · California Baptist University · April 2025"
+      "context": "University Research Colloquium · California Baptist University · April 2025",
+      "resumeBullets": [
+        "Contributed to recruitment, methodology, data collection, and data quality.",
+        "Helped interpret results and develop conclusions with the study team."
+      ]
     }
   ],
   "ongoing": {
@@ -147,5 +159,16 @@ window.portfolio = {
     "status": "Ongoing manuscript development",
     "description": "Retrospective body-composition research examining visceral adipose tissue, age, and regional fat distribution. Current work focuses on transparent methods, data quality, model evaluation, and scientific review.",
     "note": "Manuscript under development. Findings and research documents are not yet available for public dissemination."
+  },
+  "achievements": [
+    "NCAA Division I athlete",
+    "Scholastic All-American · 2022",
+    "Cum Laude graduate"
+  ],
+  "personal": {
+    "rugby": "Represented Kenya at U19 and U20 level, including the Junior World Rugby Trophy in Brazil.",
+    "taekwondo": "Junior black belt in Taekwondo.",
+    "video": "https://www.youtube.com/watch?v=wt176hEl_lQ",
+    "videoLabel": "Watch my RugbyPass profile · 2:07"
   }
 };
