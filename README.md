@@ -37,3 +37,5 @@ There is no automatic synchronization with the Career folder. Original Career fi
 ## November 2026 identity and research update
 
 Performance Scientist is the primary title. The original angular JM vector mark and owner-supplied portrait support the existing visual direction. BFR ran January-May 2025 (University Research Colloquium, April 2025); HRR ran January-May 2026 (colloquium, April 2026); PAP ran January-May 2026 in support of a master's thesis. Contributions were confirmed by the owner, including co-principal investigator roles and independent dashboard initiative. IRB submission administration is not attributed to Jeff. The VAT manuscript remains internal; only ongoing-work metadata is public.
+
+When content or scripts change, bump the shared `?v=` asset version in both HTML pages to prevent a browser from mixing old content with new code after deployment.
