@@ -71,43 +71,35 @@ window.portfolio = {
     {
       "id": "soccer",
       "number": "01",
-      "category": "Football analytics · Independent project",
+      "category": "Applied football performance research",
       "title": "Premier League Performance Intelligence",
-      "short": "A reproducible Python and SQL workflow comparing league results with shot quality across 380 Premier League matches.",
-      "status": "Source published · Local dashboard verified",
+      "short": "Turning match results and chance-quality data into clear team comparisons, season trends, and practical questions for performance review.",
+      "status": "Live dashboard · Completed analysis",
       "tags": [
-        "Python + SQL",
-        "Reproducible analysis",
-        "Streamlit"
+        "Performance interpretation",
+        "Season trends",
+        "Interactive reporting"
       ],
       "question": "How closely do team results align with the quality of chances created and conceded, and how does that gap evolve within a season?",
-      "methods": "StatsBomb Open Data: all 380 matches, 20 clubs and 38 appearances per club in the 2015/16 Premier League. A pinned source snapshot feeds validated event ingestion and relational SQLite tables. SQL joins provide traceable inputs to Pandas, NumPy, Plotly and Streamlit.",
-      "analysis": "Compare points, goal difference (GD), shot expected-goal difference (xGD) and the residual GD − xGD. Examine full-window rolling means, cumulative gaps and separate first/second 19-appearance blocks. A seeded 5,000-resample match bootstrap illustrates variability under an independent-match assumption.",
-      "findings": "Across 20 teams, points and xGD had a descriptive correlation of r = 0.8989. Crystal Palace’s GD − xGD gap changed from +12.34 after 19 appearances to −1.58 after 38, illustrating how a full-season total can hide a changing trajectory.",
+      "methods": "The study examined 380 matches across 20 clubs in the 2015/16 Premier League using StatsBomb Open Data. Points, goals, and expected goals (xG, a measure of shot quality) were compared at team and season level. Python and SQL supported data preparation, while Plotly and Streamlit supported visual exploration.",
+      "analysis": "Compare actual goal difference with expected-goal difference to identify where results and chance quality diverge. Review rolling trends, cumulative gaps, and first- versus second-half season profiles to distinguish a season total from the pattern behind it.",
+      "findings": "Across 20 teams, points and expected-goal difference had a descriptive correlation of r = 0.8989. Crystal Palace’s gap between actual and expected-goal difference changed from +12.34 after 19 appearances to −1.58 after 38. That shift illustrates why a strong early results profile should be reviewed alongside the chances a team creates and concedes.",
       "limitations": "One historical season from one provider. Shared fixtures, schedule, game state, and dependent observations constrain interpretation. The goal-difference residual does not separate finishing, goalkeeping, and chance. Findings are descriptive and apply to the 2015/16 season.",
-      "contribution": "Project development under JuvoLab: source evaluation, event-data validation, relational SQL modeling, Python analysis, interactive reporting and documented reproducibility. The work extends physiological assessment experience into inspectable football analytics.",
-      "competencies": "Relational SQL joins and data modeling; Python ingestion and quality checks; temporal analysis and uncertainty communication; interactive reporting; reproducible environments and automated validation. Project validation included five passing tests, reconciliation of all 380 matches, and matching hashes for 381 freshly retrieved source files.",
-      "link": "https://github.com/JuvoLab/premier-league-performance-intelligence",
-      "linkText": "Explore code & reproducibility",
-      "resources": [
-        {
-          "label": "Read technical case study",
-          "url": "https://github.com/JuvoLab/premier-league-performance-intelligence/blob/main/docs/case-study.md"
-        },
-        {
-          "label": "Inspect validation record",
-          "url": "https://github.com/JuvoLab/premier-league-performance-intelligence/blob/main/docs/qa-review.md"
-        }
-      ],
+      "contribution": "Developed the research question, evaluated the data source, compared team and seasonal performance profiles, and translated the analysis into an interactive dashboard and case study under JuvoLab. The emphasis is on explaining what the data means and making it useful for performance review.",
+      "competencies": "Applied match analysis, interpretation of expected-goal metrics, data quality assessment, trend analysis, evidence-based questioning, and visual communication. The project extends my physiological assessment background into football performance analysis and the communication of practical insights.",
+      "link": "https://juvolab-premier-league.streamlit.app/",
+      "linkText": "Open live dashboard",
+      "resources": [],
       "preview": "soccer-performance-preview.png",
       "source": "Premier League Performance Intelligence · JuvoLab. Data: StatsBomb Open Data. Independent noncommercial research; no affiliation or endorsement.",
-      "role": "Independent research & analytics project · JuvoLab",
+      "role": "Independent performance research project · JuvoLab",
       "dates": "November 2026",
-      "context": "Historical football analysis · Public code; dashboard runs locally",
+      "context": "Historical football analysis · Live interactive dashboard",
       "resumeBullets": [
-        "Developed a traceable Python/SQLite workflow from validated event data to team and player analysis.",
-        "Documented reproducibility, automated checks, temporal comparisons and an interactive Streamlit interface."
-      ]
+        "Compared results with chance quality across 380 matches to explain team performance patterns and changes over a season.",
+        "Created an interactive dashboard that turns analysis into accessible comparisons and focused questions for performance review."
+      ],
+      "application": "Use the dashboard to frame a performance conversation: Are results supported by chance quality? Is a gap sustained or changing? Which periods deserve closer match review? These comparisons help prioritize questions for analysts and coaches; identifying causes still requires match footage and team context."
     },
     {
       "id": "pap",
