@@ -10,11 +10,12 @@ Buildless HTML/CSS/JavaScript. No framework, package installation, backend, secr
 
 ## Research
 
-- **PAP & sprint swimming:** study and interactive dashboard documented in the supplied resume and README. No unverified performance benefit is claimed. [Existing external dashboard](https://portfolio-site-two-rho-96.vercel.app/).
-- **Seasonal heart-rate recovery:** completed collaborative poster in 11 NCAA Division I swimmers. Statistical significance is not claimed. The case study identifies the source discrepancy between 90 and 90.8 seconds for off-season tau.
-- **BFR walking:** completed collaborative poster in 20 participants. The case study notes methods clarification needs. Posters are historical artifacts and are not represented as peer-reviewed publications or validated clinical protocols.
+- **PAP & sprint swimming:** collaborative research with 12 NCAA Division I swimmers, supported by an independently developed interactive dashboard. [Swimming dashboard](https://portfolio-site-two-rho-96.vercel.app/).
+- **Seasonal heart-rate recovery:** in-season and off-season recovery-kinetics research in 11 collegiate swimmers; presented at the University Research Colloquium, April 2026.
+- **BFR walking:** a four-week randomized study in 20 sedentary adults examining functional walking capacity and cardiometabolic markers; presented at the University Research Colloquium, April 2025.
+- **Premier League Performance Intelligence:** independent historical football analytics using Python, SQL / SQLite, Plotly, and Streamlit. [Project repository](https://github.com/JuvoLab/premier-league-performance-intelligence).
 
-The website includes only narrative summaries and the two supplied research poster images. It includes no participant-level data. Restricted Wellth DEXA findings, reports, databases and employer-owned source code are excluded. No open-source license is asserted over coauthored research artifacts.
+The website includes narrative case studies, research presentation images, and a football dashboard preview. It includes no participant-level data. Restricted Wellth DEXA findings, reports, databases and employer-owned source code are excluded. No open-source license is asserted over coauthored research artifacts.
 
 ## Updating the portfolio
 
